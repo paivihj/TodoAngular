@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.btn {
+    height: 25px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 1s;
+}
+.btn:hover {
+    color: black;
+}
